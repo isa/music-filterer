@@ -8,4 +8,5 @@ if (__name__ == "__main__"):
    print "Will be filtering.."
 
    for file_name in FileBrowser('/Users/isa/Music').all_files():
-      print file_name
+      id = ID3(file_name)
+      print "%s - %s" % (id.artist(), id.title())

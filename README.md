@@ -9,7 +9,7 @@ Nothing complicated..
 
 ### Installation
 
-Make sure that you have ffmpeg installed on your system and you do also need id3reader and pyechonest python libraries. And then:
+Make sure that you have ffmpeg installed on your system and you do also need storm, id3reader and pyechonest python libraries. And then:
 
     rake
 

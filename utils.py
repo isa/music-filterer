@@ -1,6 +1,7 @@
 import os
 import unicodedata
 import id3reader
+from pyechonest import config
 
 class ID3:
    def __init__(self, path):
@@ -50,4 +51,19 @@ class FileBrowser:
 
    def all_files(self):
       return self.__list_mp3_files_under__(self.path)
+
+class Taste:
+   def __init__(self, values**):
+      self.keys = values['keys']
+
+
+class TasteFinder:
+   def __init__(self, 5star_likes, 4star_likes):
+      config.ECHO_NEST_API_KEY = "TA4OHCAV5FQCJTWVJ"
+      self.5star_likes = 5star_likes
+      self.4star_likes = 4star_likes
+
+   def __keys__(self):
+      return []
+
 
